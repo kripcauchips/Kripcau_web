@@ -1,0 +1,78 @@
+﻿
+> choco-chips@0.1.0 dev
+> next dev
+
+node.exe : ΓÜá Port 
+3000 is in use by 
+process 12752, using 
+available port 3001 
+instead.
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (ΓÜá Por   
+ t 3000 i...t 300    
+1 instead.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+ΓÜá Warning: Next.js 
+inferred your 
+workspace root, but 
+it may not be 
+correct.
+ We detected 
+multiple lockfiles 
+and selected the 
+directory of C:\Users
+\Davin\Documents\Proj
+ect\Kripcau\package-l
+ock.json as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs
+.org/docs/app/api-ref
+erence/config/next-co
+nfig-js/turbopack#roo
+t-directory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\Davin\D
+ocuments\Project\Krip
+cau\choco-chips\packa
+ge-lock.json
+
+Γû▓ Next.js 16.1.7 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://172.162.26.190:3001
+- Environments: .env
+
+Γ£ô Starting...
+Γ¿» Unable to 
+acquire lock at C:\Us
+ers\Davin\Documents\P
+roject\Kripcau\choco-
+chips\.next\dev\lock,
+ is another instance 
+of next dev running?
+  Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+[?25h
