@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import React, { Suspense } from 'react';
 import prisma from '@/lib/prisma';
 import TradingViewChart from './TradingViewChart';
