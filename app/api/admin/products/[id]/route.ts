@@ -1,9 +1,9 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
 import { cookies } from 'next/headers';
 
 export async function PATCH(
-  request: Request,
+  request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
@@ -14,8 +14,8 @@ export async function PATCH(
       return NextResponse.json({ message: 'Unauthorized' }, { status: 401 });
     }
 
-    const { id: idParam } = await params;
-    const id = parseInt(idParam);
+    const { id: rawId } = await params;
+    const id = parseInt(rawId);
     const body = await request.json();
 
     const updatedProduct = await prisma.product.update({
